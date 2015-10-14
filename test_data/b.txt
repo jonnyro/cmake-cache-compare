@@ -1,0 +1,31 @@
+####################################
+# Lines like this should be ignored
+####################################
+
+//Stored GUID
+NetCDF_GUID_CMAKE:INTERNAL=A5D1FFE7-3DBB-4905-9843-41AAF825E141
+
+//Result of TRY_COMPILE
+HAVE_H5_SIZEOF_INT_LEAST16_T:INTERNAL=TRUE
+
+//Install dir for static libraries
+ARCHIVE_INSTALL_DIR:PATH=D:/Stellar/Controlled/BuildArea/install/${BUILD_TYPE}/lib
+
+//Dependencies for the target
+AllowNothingService_LIB_DEPENDS:STATIC=general;pion;
+
+//For backwards compatibility, what version of CMake commands and
+// syntax should this version of CMake try to support.
+CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.4
+
+//Path to a file.
+CEF_CONFIG_FILE:FILEPATH=D:/Stellar/Controlled/BuildArea/cmake/AllProjects/3rdparty/cef/CEFConfig.cmake
+
+//Boost source location.
+BOOST_SOURCE_ROOT:STRING=D:/Stellar/Controlled/gitAll/3rdparty/Boost
+
+//A flag for toggling use of a default user name.
+CrfwRf_USE_DEFAULT_USER_NAME:PATH=TRUE
+
+//Additional project directory containing CMakeLists.txt file.
+ADDITIONAL_PROJECTS_DIR5:PATH=
