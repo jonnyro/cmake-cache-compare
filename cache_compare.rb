@@ -1,20 +1,19 @@
-require_relative 'cache_loader'
-require_relative 'cache_entry'
-require_relative 'options'
+require_relative './src/cache_loader'
+require_relative './src/cache_entry'
+require_relative './src/program_options'
 
-p options
 
-#argv now contains the remainder
-p ARGV
+po = ProgramOptions.new
+po.process(ARGV)
 
-if ARGV.length != 2 then
+if po.arguments.length != 2 then
 
 	puts "I require two arguments"
 	abort
 end
 
-file_a = ARGV[0]
-file_b = ARGV[1]
+file_a = po.arguments[0]
+file_b = po.arguments[1]
 
 
 
